@@ -1,24 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: Aqua;
-}
-h3{
-    text-align: center;
-    color: darkblue;
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: white;
-    font-size: 25px;
-}
-h3:hover{
-    color: white;
-    background-color: darkblue;
-    border: darkblue 2px solid;
-    transition: 1s linear;
-}
-header p{
-    text-align:center ;
+    background-color: aqua;
 }
 nav{
     text-align: center;
@@ -53,168 +35,8 @@ main{
     padding-right:100px ;
     justify-content: center;
 }
-li{
-    list-style-type: none;
-    margin-top:  10px;
-    font-size: 18px;
-    margin-left: 2px ;
-    margin-right: 10px;
-}
-.little{
-    margin-top: 2px;
-    font-size: 15px;
-}
-.hours::before{
-    content: url("https://img.icons8.com/ios-filled/50/000000/horses-sign.png");
-    margin: 5px;
-}
-.mi_ch::before{
-    content: url("https://img.icons8.com/ios-filled/50/000000/speedometer.png");
-    margin: 5px;
-}
-.max::before{
-    content: url("https://img.icons8.com/ios-filled/50/000000/wind--v2.png");
-    margin: 5px;
-}
-.mi::before{
-    content: url("https://img.icons8.com/ios-filled/50/000000/sonometer.png");
-    margin: 5px;
-}
-div img{
-    height: 211px;
-    width: 375px;
-}
-.text_c{
-    float: left;
-    width: 200px;
-    border-right: 2px darkblue dashed;
-}
-.img_c img{
-    float: left;
-    transform: translateY(40px);
-    margin-left: 10px;
-}
-.img_c:hover img{
-    border: 6px dotted Blue;
-    border-radius: 10%;
-    transition: 1.5s ease-out;
-}   
-.img_c h2{
-    text-align: center;
-    margin-top: 40px;
-}
-.model_c{
-    display: flex;
-    margin: 20px;
-    border: 3px darkblue solid;
-    width: 600px;
-    padding-right: 10px;
-    background-image: linear-gradient(to right, LightBlue, DeepSkyBlue);
-    border-radius: 10%;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-.motor::before{
-    content: url("https://img.icons8.com/ios-filled/50/000000/engine.png");
-    margin: 5px;
-}
-.model_3{
-    display: flex;
-    margin: 20px;
-    border: 3px darkblue solid;
-    width: 600px;
-    padding-right: 10px;
-    background-image: linear-gradient(to right, LightBlue, DeepSkyBlue);
-    justify-content: center;
-    border-radius: 10%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-.img_3 img{
-    float: left;
-    margin-left: 10px;
-}
-.img_3:hover img{
-    border: 6px dotted Blue;
-    border-radius: 10%;
-    transition: 1.5s ease-out;
-}   
-.text_3{
-    float: left;
-    width: 200px;
-    border-right: 2px darkblue dashed;
-}
-.img_3 h2{
-    text-align: center;
-    margin-top: 40px;
-}
-.model_x{
-    display: flex;
-    margin: 20px;
-    border: 3px darkblue solid;
-    width: 600px;
-    padding-right: 10px;
-    background-image: linear-gradient(to right, LightBlue, DeepSkyBlue);
-    border-radius: 10%;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-.text_x{
-    float: left;
-    width: 200px;
-    border-right: 2px darkblue dashed;
-}
-.img_x h2{
-    text-align: center;
-    margin-top: 40px;
-}
-.img_x img{
-    float: left;
-    margin-left: 10px;
-}
-.img_x:hover img{
-    border: 6px dotted Blue;
-    border-radius: 10%;
-    transition: 1.5s ease-out;
-}   
-.box::before{
-    content: url("https://img.icons8.com/ios-filled/50/000000/truck-weight-max-loading.png");
-}
-.model_y{
-    display: flex;
-    margin: 20px;
-    border: 3px darkblue solid;
-    width: 600px;
-    padding-right: 10px;
-    background-image: linear-gradient(to right, LightBlue, DeepSkyBlue);
-    border-radius: 10%;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-.text_y{
-    float: left;
-    width: 200px;
-    border-right: 2px darkblue dashed;
-}
-.img_y img{
-    float: left;
-    margin-left: 10px;
-}
-.img_y:hover img{
-    border: 6px dotted Blue;
-    border-radius: 10%;
-    transition: 1.5s ease-out;
-}   
-.img_y h2{
-    text-align: center;
-    margin-top: 40px;
+header p{
+    text-align:center ;
 }
 footer{
     background-color: darkblue;
@@ -237,8 +59,92 @@ footer a:hover{
     transition: 1s linear;
     color: black;
 }
-.begin{
+h1{
     text-align: center;
+}
+
+li::before{
+    padding: 10px;
+    content:url("https://img.icons8.com/ios-glyphs/30/000000/macos-maximize.png");
+}
+li{
+    list-style-type: none;
+}
+.big{
     font-size: 20px;
-    font-family: Palatino, URW Palladio L, serif;
+    flex-wrap: wrap;
+}
+.design{
+    float: left;
+}
+.design_ul{
+    display: flex;
+}
+li p{
+    padding-left: 20px;
+}
+.keep_energy{
+    float: left;
+}
+.keep_energy_ul{
+    display: flex;
+}
+main{
+    justify-content: center;
+}
+.panel{
+    float: left;
+    width: 300px;
+    padding-left: 20px;
+    height: 2400px;
+    margin-top: -52px;
+}
+li{
+    border: 3px solid Khaki;
+    width: 350px;
+    margin:30px;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: gold;
+}
+li:hover{
+    background-image: linear-gradient(to bottom, Gold, LightGoldenrodYellow);
+    box-shadow: 10px 20px 5px 5px DarkOrange;
+    transform: translateY(-20px);
+    transition: 1s ease-in;
+}
+.sun_crov{
+    display: flex;
+}
+.ul{
+    float: left;
+}
+.texxt{
+    
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.texxt:hover{
+    border: 2px dashed red;
+    transition: 1s ease-in;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+}
+.litttle{
+    color: red;
+}
+h3{
+    text-align: center;
+    color: darkblue;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+h3:hover{
+    color: white;
+    background-color: darkblue;
+    border: darkblue 2px solid;
+    transition: 1s linear;
 }
