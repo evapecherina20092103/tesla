@@ -1,3 +1,4 @@
+
 body {
     font-family: sans-serif;
     background-color: Aqua;
@@ -241,4 +242,9 @@ footer a:hover{
     text-align: center;
     font-size: 20px;
     font-family: Palatino, URW Palladio L, serif;
+}
+.line{
+    display: flex;
+    justify-content: center;
+
 }
